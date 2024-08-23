@@ -1,0 +1,11 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;@tailwind components;
+@tailwind utilities;
+
+.red-progress-bar .Toastify__progress-bar {
+    background: #ee5151;
+}
+
+.green-progress-bar .Toastify__progress-bar {
+    background: greenyellow;
+}

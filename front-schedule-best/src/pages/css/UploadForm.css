@@ -1,0 +1,141 @@
+body {
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.upload-form-container {
+    background-image: url('https://i.pinimg.com/originals/86/15/7b/86157b2df0c1ccc22992f2ebc81b882c.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(119, 117, 117, 0.7); /* Adjust transparency here */
+    width: 300px;
+    border-radius: 15px;
+    display: block;
+    padding: 25px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.heading-schedule{
+    text-align: center
+}
+
+.heading-schedule h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-item-surname, .form-item-file {
+    width: 50%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 16px;
+}
+
+#surname {
+    width: 150%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent */
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+
+
+#surname:focus {
+    border: 1px solid rgba(74, 74, 74, 0.55);
+    outline: none;
+    background-color: #fff;
+}
+
+#surname:hover {
+    border: 1px solid rgba(74, 74, 74, 0.55);
+}
+
+#file {
+   display: none;
+}
+
+.form-item-file label {
+    display: block;
+    width: 150%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px dashed rgba(74, 74, 74, 0.55);
+    background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent */
+    color: #4a4a4a;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.form-item-file label:hover {
+    border: 2px dotted rgba(74, 74, 74, 0.55);
+}
+
+.form-item-surname input, .form-item-file input {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.submit-button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+.submit-button input {
+    width: 165%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(74, 74, 74, 0.55);
+    background-color: rgba(74, 74, 74, 0.5); /* Slightly transparent */
+    color: #fff;
+    font-size: 16px;
+    margin-left: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.submit-button input:hover {
+    background-color: rgba(220, 219, 219, 0.8); /* Adjusted transparency on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

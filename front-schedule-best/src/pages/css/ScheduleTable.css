@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.schedule-table-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    height: 100vh;
+
+}
+
+.schedule-table-header {
+    margin: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    color: rgba(78, 112, 114, 0.68);
+    border-radius: 5px;
+    text-shadow: 0.5px 0.5px rgba(75, 75, 75, 0.3);
+}
+
+.tables {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    flex-grow: 1;
+    padding: 20px;
+    background-image: url("https://gifs.obs.ru-moscow-1.hc.sbercloud.ru/e307546722f75004613922455b11d53ff0cf13e927b3ca24828107a21d0712df.gif");
+    /*background-image: url("https://www.upload.ee/image/13626724/preview_yoh_1920x1080.gif");*/
+
+}
+
+.table-wrapper {
+    width: 48%;
+    margin-bottom: 20px;
+    color: #000;
+    text-shadow: 1px 0.5px rgba(75, 75, 75, 0.38);
+}
+
+.table-wrapper table {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    margin-bottom: 20px;
+    background-color: rgba(161, 161, 161, 0.1);
+}
+
+.schedule-table th, .schedule-table td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+    background-color: rgba(161, 161, 161, 0.1);
+}
